@@ -1,0 +1,26 @@
+cd git
+git clone https://github.com/zkxs/isectest.git
+git checkout gh-pages
+git status
+git add {filename}
+git commit
+git log
+git push --set-upstream origin gh-pages
+
+
+git config --global user.email "your_email@example.com"
+
+
+git init
+git remote add origin https://github.com/zkxs/isectest.git
+git remote set-url git@github.com:zkxs/isectest.git
+git pull
+git clone
+
+
+so you tried to push, but there are merge conflicts
+git pull
+resolve conflicts
+git commit
+git pull
+git push
